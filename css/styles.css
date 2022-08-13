@@ -7,41 +7,183 @@ a {
 img {
     display: block;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #212121;
     }
-    .top {
+
+/*header*/
+   .logo {
+        color: #000000;
+    }
+
+    .logo-part {
+        color: #2196F3;
+    }
+    
+    .logo,.logo-part {
+        font-family: 'Raleway',sans-serif;
+        font-size: 26px;
+        line-height: 1,19;
+        letter-spacing: 0.03em;
+    }
+    .menu-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1,14;
+        letter-spacing: 0.02em;
+    }
+
+    .menu-link:hover,
+    .menu-link:focus {
+        color: #2196F3;
+    }
+
+    .contact-mail {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1,14;
+        letter-spacing: 0.02em;
+        color: #757575;
+    }
+
+    .contact-mail:hover,
+    .contact-mail:focus {
+        color: #2196F3;
+    }
+
+    .contact-phone-number {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1,14;
+        letter-spacing: 0.02em;
+        color: #757575;
+    }
+
+    .contact-phone-number:hover,
+    .contact-phone-number:focus {
+        color: #2196F3;
+    }
+
+/*main*/
+/*section 1*/
+    .main-top {
         background-color: #2F303A;
     }
-    h1 {
-        font-family: 'Roboto';
+
+    .headline {
         font-weight: 900;
         font-size: 44px;
-        line-height: 60px;
+        line-height: 1,36;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: #FFFFFF;
     }
-    .top-btn {
-        font-family: 'Roboto';
-        font-weight: 700;
+
+/*buttom*/
+    .modal-open-btn {
         font-size: 16px;
-        line-height: 30px;
+        line-height: 1,88;
         color: #FFFFFF;
         background-color: #2196F3;
+        cursor: pointer;
     }
-    .logo-part {
+
+    .modal-open-btn:active {
+     background-color: #188CE8;
+    }
+    
+/*section 2*/
+    .features {
+        font-size: 14px;
+        line-height: 1,14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+
+    .features-description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1,71;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+/*section 3*/
+    .working {
+        font-size: 36px;
+        line-height: 1,17;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+/*section*/
+    .team {
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    .member-name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,19;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    .team-position {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+/*footer*/
+    .page-bottom {
+        background-color: #2F303A;
+    }
+
+    .bottom-logo {
+        color: #FFFFFF;
+    }
+
+    .bottom-logo-part {
         color: #2196F3;
     }
-    .logo {
-        color: #000;
-    }
-    .logo,.logo-part {
+
+    .bottom-logo,.bottom-logo-part {
         font-family: 'Raleway';
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 31px;
-            letter-spacing: 0.03em;
+        font-size: 26px;
+        line-height: 1,19;
+        letter-spacing: 0.03em;
+    }
+    .map-point {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1,71;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+
+    .bottom-contact-mail {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1,71;
+        letter-spacing: 0.03em;
+        color: rgb(255, 255, 255, 60%);
+    }
+
+    .bottom-phone-number {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1,71;
+        letter-spacing: 0.03em;
+        color: rgb(255, 255, 255, 60%);
     }
