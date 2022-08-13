@@ -34,6 +34,7 @@ body {
         font-size: 14px;
         line-height: 1,14;
         letter-spacing: 0.02em;
+        color: #212121;
     }
 
     .menu-link:hover,
@@ -186,4 +187,9 @@ body {
         line-height: 1,71;
         letter-spacing: 0.03em;
         color: rgb(255, 255, 255, 60%);
+    }
+    
+    .bottom-link:hover,
+    .bottom-link:focus {
+            color: #2196F3;
     }
