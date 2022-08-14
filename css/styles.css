@@ -38,7 +38,8 @@ body {
     }
 
     .menu-link:hover,
-    .menu-link:focus {
+    .menu-link:focus,
+    .menu-link:active {
         color: #2196F3;
     }
 
@@ -192,4 +193,37 @@ body {
     .bottom-link:hover,
     .bottom-link:focus {
             color: #2196F3;
+    }
+
+/*portfolio*/
+    /*Filters*/
+    .filter-btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,63;
+        text-align: center;
+        letter-spacing: 0.03em;
+        background-color: #F5F4FA;
+        cursor: pointer;
+    }
+        
+    .filter-btn:hover,
+    .filter-btn:focus {
+        color: #FFFFFF;
+        background-color: #2196F3;
+    }
+
+    /*projects*/
+    .projects-name {
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+    }
+
+    .projects-specification {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,88;
+        letter-spacing: 0.03em;
+        color: #757575;
     }
